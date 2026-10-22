@@ -1,0 +1,40 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Builds and dependencies
+.pio/
+node_modules/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+
+# Local recordings and generated output
+/sessions/
+/outputs/
+*.log
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.mp4
+*.mkv
+*.mov
+
+# Editor/OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
